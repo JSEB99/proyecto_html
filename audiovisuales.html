@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Máximo, el pastor aleman</title>
+    <style>
+      body {
+        font-family: "Lucida Console", "Courier New", monospace;
+        background: linear-gradient(
+          to right,
+          rgb(252, 183, 144),
+          rgb(255, 209, 82)
+        );
+        padding: 0;
+        margin: 0;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+
+      .active {
+        background-color: #ffd900;
+      }
+
+      h1 {
+        background-color: black;
+        padding: 10px;
+        margin: 0;
+        color: #ffd900;
+      }
+
+      div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 33vw;
+      }
+
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: 50% 20%;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+
+      video {
+        display: block;
+        margin: auto;
+        width: 720px;
+        height: 430px;
+      }
+      audio {
+        display: block;
+        margin: auto;
+      }
+      .centrado {
+        display: flex;
+        justify-content: center;
+      }
+      .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Máximo el Gladiador!, Pastor Aleman sin igual</h1>
+      <hr />
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="preferencias.html">Preferencias</a></li>
+          <li><a class="active" href="audiovisuales.html">Audiovisuales</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <video
+      class="centrado"
+      src="./assets/videos/maximito converted.mp4"
+      controls
+      autoplay
+      muted
+      loop
+    ></video>
+
+    <audio
+      class="centrado"
+      src="./assets/audios/maximomeridio-converted.mp3"
+      controls
+      autoplay
+    ></audio>
+
+    <section class="centrado">
+      <div class="gallery">
+        <a href="./assets/images/edit1.png" target="_blank">
+          <img src="./assets/images/edit1.png" alt="imagen1" />
+        </a>
+        <div class="desc">Mini Máximo</div>
+      </div>
+      <div class="gallery">
+        <a href="./assets/images/zzz.png">
+          <img src="./assets/images/zzz.png" alt="imagen2" />
+        </a>
+        <div class="desc">Máximo ZZZ</div>
+      </div>
+      <div class="gallery">
+        <a href="./assets/images/quehace.png">
+          <img src="./assets/images/quehace.png" alt="imagen3" />
+        </a>
+        <div class="desc">Máximo ZZZ 2</div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Derechos reservados &copy; 2023</p>
+    </footer>
+  </body>
+</html>

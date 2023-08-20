@@ -1,0 +1,29 @@
+h1{
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(34, 34, 34);
+}
+.navbar-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding:10px 0px;
+}
+.navbar-item{
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
